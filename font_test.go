@@ -30,13 +30,19 @@ import (
 var _ = Describe("Font", func() {
 	Context("Go", func() {
 		It("should be able to get the Go font face", func() {
+			Expect(Go.Regular(nil)).ToNot(BeNil())
 			Expect(Go.Bold(nil)).ToNot(BeNil())
+			Expect(Go.Italic(nil)).ToNot(BeNil())
+			Expect(Go.BoldItalic(nil)).ToNot(BeNil())
 		})
 	})
 
 	Context("Hack", func() {
 		It("should be able to get the Hack font face", func() {
+			Expect(Hack.Regular(nil)).ToNot(BeNil())
 			Expect(Hack.Bold(nil)).ToNot(BeNil())
+			Expect(Hack.Italic(nil)).ToNot(BeNil())
+			Expect(Hack.BoldItalic(nil)).ToNot(BeNil())
 		})
 	})
 })
