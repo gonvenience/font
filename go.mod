@@ -5,7 +5,7 @@ go 1.23.0
 require (
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/onsi/gomega v1.37.0
-	golang.org/x/image v0.28.0
+	golang.org/x/image v0.29.0
 )
 
 require go.uber.org/automaxprocs v1.6.0 // indirect
