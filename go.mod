@@ -9,7 +9,7 @@ require (
 )
 
 require (
-	github.com/Masterminds/semver/v3 v3.3.1 // indirect
+	github.com/Masterminds/semver/v3 v3.4.0 // indirect
 	go.uber.org/automaxprocs v1.6.0 // indirect
 )
 
