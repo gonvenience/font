@@ -5,7 +5,7 @@ go 1.24.0
 require (
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/onsi/gomega v1.39.0
-	golang.org/x/image v0.34.0
+	golang.org/x/image v0.35.0
 )
 
 require (
@@ -23,6 +23,6 @@ require (
 	github.com/onsi/ginkgo/v2 v2.27.4
 	golang.org/x/net v0.48.0 // indirect
 	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/text v0.32.0 // indirect
+	golang.org/x/text v0.33.0 // indirect
 	golang.org/x/tools v0.40.0 // indirect
 )
