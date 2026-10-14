@@ -5,7 +5,7 @@ go 1.26.0
 require (
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/onsi/gomega v1.44.0
-	golang.org/x/image v0.46.0
+	golang.org/x/image v0.47.0
 )
 
 require (
@@ -21,6 +21,6 @@ require (
 	golang.org/x/net v0.59.0 // indirect
 	golang.org/x/sync v0.24.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
-	golang.org/x/text v0.42.0 // indirect
+	golang.org/x/text v0.43.0 // indirect
 	golang.org/x/tools v0.51.0 // indirect
 )
